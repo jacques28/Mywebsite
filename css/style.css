@@ -7,56 +7,32 @@ html, body{
 body{
 	font-family: 'Nunito', sans-serif;
 }
-header{
-	width: 110%;
-	height: 110vh;
-	background-image: url('/home/jack28/Documents/Mywebsite/img/pic4.jpg') ;
-	background-size: cover;
-	display: flex;
-}
-.content{
-	width: 90%;
-	margin: 4em auto;
-	font-size: 20px;
-	line-height: 30px;
-	text-align: justify;
- display: flex;
- background-color: blue;
-}
-.logo{
-	position: fixed;
-	float: left;
-	margin: 16px 36px;
-	color: #fff;
-	font-weight: bold;
-	font-size: 24px;
-	background-color: red;
-}
-nav {
-	display: flex;
-	position: fixed;
-	width: 1OO%;
-}
-nav ul {
-	list-style: none;
-	background: rgba(0,0,0,0);
-	overflow: hidden;
-	color: #fff;
-	padding: 0;
-	text-align: center;
-	margin: 0;
-	transition: 1s;
-}
-nav.black ul {
-	background: #000;
+.wrapper{
+	width: 100%;
+	margin: auto;
 
 }
-nav ul li {
-	display: inline-block;
-	padding: 20px;
+
+
+header{
+
+	height: 90vh;
+	background-image: url('/home/jack28/Documents/Mywebsite/img/pic4.jpg') ;
+	background-size: cover;
+	justify-content: space-between;
+
 }
-nav ul li a {
-	text-decoration: none;
-	color:#fff;
-	font-size: 20px;
+.navbar{
+	font-family: 'Revalia', cursive;
+
+}
+
+
+.menu li{
+	padding:0;
+	margin:0;
+	list-style: none;
+	display: flex;
+
+
 }
